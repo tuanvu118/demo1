@@ -7,22 +7,22 @@ playerLivesCount.textContent=playerLives;
 
 //Generate the data
 const getData = ()=>[
-      { imgSrc:"./image/ADung.jpg", name:"Adung"},
-      { imgSrc:"./image/AS2.jpg", name:"AS2"},
-      { imgSrc:"./image/D.png", name:"D"},
-      { imgSrc:"./image/H1.jpg", name:"H1"},
-      { imgSrc:"./image/HGM.jpg", name:"HGM"},
-      { imgSrc:"./image/tuan.jpg", name:"tuan"},
-      { imgSrc:"./image/itiscup.jpg", name:"itiscup"},
-      { imgSrc:"./image/Logo nền sáng.png", name:"Logo"},
-      { imgSrc:"./image/ADung.jpg", name:"Adung"},
-      { imgSrc:"./image/AS2.jpg", name:"AS2"},
-      { imgSrc:"./image/D.png", name:"D"},
-      { imgSrc:"./image/H1.jpg", name:"H1"},
-      { imgSrc:"./image/HGM.jpg", name:"HGM"},
-      { imgSrc:"./image/tuan.jpg", name:"tuan"},
-      { imgSrc:"./image/itiscup.jpg", name:"itiscup"},
-      { imgSrc:"./image/Logo nền sáng.png", name:"Logo"},
+      { imgSrc:"./images/ADung.jpg", name:"Adung"},
+      { imgSrc:"./images/AS2.jpg", name:"AS2"},
+      { imgSrc:"./images/D.png", name:"D"},
+      { imgSrc:"./images/H1.jpg", name:"H1"},
+      { imgSrc:"./images/HGM.jpg", name:"HGM"},
+      { imgSrc:"./images/tuan.jpg", name:"tuan"},
+      { imgSrc:"./images/itiscup.jpg", name:"itiscup"},
+      { imgSrc:"./images/Logo nền sáng.png", name:"Logo"},
+      { imgSrc:"./images/ADung.jpg", name:"Adung"},
+      { imgSrc:"./images/AS2.jpg", name:"AS2"},
+      { imgSrc:"./images/D.png", name:"D"},
+      { imgSrc:"./images/H1.jpg", name:"H1"},
+      { imgSrc:"./images/HGM.jpg", name:"HGM"},
+      { imgSrc:"./images/tuan.jpg", name:"tuan"},
+      { imgSrc:"./images/itiscup.jpg", name:"itiscup"},
+      { imgSrc:"./images/Logo nền sáng.png", name:"Logo"},
 ];
 const randomize = ()=>{
     const cardData=getData();
