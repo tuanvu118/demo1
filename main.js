@@ -1,6 +1,6 @@
 const section=document.querySelector("section");
 const playerLivesCount=document.querySelector("span");
-let playerLives=4;
+let playerLives=3;
 
 //linktext
 playerLivesCount.textContent=playerLives;
@@ -81,13 +81,13 @@ const checkCards=(e)=>{
             playerLives--;
             playerLivesCount.textContent=playerLives;
             if(playerLives===0){
-                restart("non lam");
+                restart("YOU LOSE");
             }
         }
     }
     //win
     if(toggleCard.length===16){
-        restart("you win");
+        restart("YOU WIN");
     }
 } ;
 //restart
@@ -106,7 +106,7 @@ const restart =(text)=>{
         section.style.pointerEvents="all";
         },1000);
     });
-    playerLives=4;
+    playerLives=3;
     playerLivesCount.textContent=playerLives;
     setTimeout(()=>window.alert(text),100);
     //svkndv
